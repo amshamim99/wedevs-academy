@@ -1,0 +1,20 @@
+{
+    "name": "shamim1999/wedevs-academy",
+    "description": "Simple plugin for wedevs academy",
+    "type": "wordpress-plugin",
+    "license": "GPL-2.0-or-later",
+    "autoload": {
+        "psr-4": {
+            "Wedevs\\Academy\\": "includes/"
+        },
+        "files":["includes/Function.php"]
+    },
+    "authors": [
+        {
+            "name": "shamim",
+            "email": "amshamim99@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
