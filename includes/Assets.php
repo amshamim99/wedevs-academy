@@ -71,7 +71,7 @@
 
             // ajax delete//
             wp_localize_script('academy-admin-script', 'weDevsAcademy',[
-                'nonce'   => wp_create_nonce( 'wd-academy-delete-contact' ),
+                'nonce'   => wp_create_nonce( 'wd-ac-admin-nonce' ),
                 'confirm' => __( 'Are you sure?', 'wedevs-academy' ),
                 'error'   => __( 'Something went wrong', 'wedevs-academy' ),
             ]);
