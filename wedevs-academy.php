@@ -78,6 +78,8 @@ final class Wedevs_Academy{
         }else{
             new Wedevs\Academy\Frontend();
         }
+
+        new Wedevs\Academy\API();
     }
 
     /**
